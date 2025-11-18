@@ -1,6 +1,6 @@
 ## Final Comparative Report: Laptops for Video Editing (DaVinci Resolve & Adobe After Effects)
 
-*(Updated with 3 additional Lenovo Legion models)*
+*(Updated with 3 additional Lenovo Legion models, detailed RAM type/speed, and price‑sorted table)*
 
 ---
 
@@ -21,172 +21,225 @@
 
 **New models (Tehnomedia):**
 
-- Lenovo Legion 5 16IRX9 (i7‑14650HX / $32\,\text{GB}$ / RTX 4070 / $16"$ WQXGA IPS)  
+- Lenovo Legion 5 16IRX9 (i7‑14650HX / 32 GB / RTX 4070 / 16″ WQXGA IPS)  
   - Link: `https://www.tehnomedia.rs/it-uredjaji/laptop/lenovo-legion-5-16irx9,-16--wqxga,-intel-core-i7-14650hx,-32gb,-1tb,-rtx4070,-backlit-srb,-grey,-dos--83dg00hnya-.html`
-- Lenovo Legion 5 15AKP10 (Ryzen AI 7 350 / $32\,\text{GB}$ / RTX 5060 / $15.1"$ OLED)  
+- Lenovo Legion 5 15AKP10 (Ryzen AI 7 350 / 32 GB / RTX 5060 / 15.1″ OLED)  
   - Link: `https://www.tehnomedia.rs/it-uredjaji/laptop/lenovo-legion-5-15akp10,-15-1--oled,-amd-ryzen-ai-7-350,-32gb,-1tb,-rtx5060,-backlite,-dos,-aluminium-top,-eclipse-black--83f1001jya-.html`
-- Lenovo Legion Pro 5 16ADR10 (Ryzen 9 8945HX / $32\,\text{GB}$ / RTX 5050 / $16"$ WQXGA IPS $240\,\text{Hz}$)  
+- Lenovo Legion Pro 5 16ADR10 (Ryzen 9 8945HX / 32 GB / RTX 5050 / 16″ WQXGA IPS 240 Hz)  
   - Link: `https://www.tehnomedia.rs/it-uredjaji/laptop/lenovo-legion-pro-5-16adr10,-16--wqxga,-amd-ryzen-9-8945hx,-32gb,-1tb,-rtx5050,-bklt,-srb,-dos,-crna--83lt001tya-.html`
 
 ---
 
 ### 2. Purpose and Scope
 
-This report now compares **eight** laptop models for professional and semi‑professional video editing, with emphasis on DaVinci Resolve and Adobe After Effects:
+This report compares **eight** laptop models for professional and semi‑professional video editing, with emphasis on DaVinci Resolve and Adobe After Effects. It integrates:
 
 - Formal configuration comparison  
 - Spec‑by‑spec rankings  
-- Interpretation of benchmark data (especially for new CPUs/GPUs)  
-- Real‑world feedback (thermals, battery, issues)  
+- Interpretation of benchmark data  
+- Real‑world feedback (thermals, battery, noise, reliability)  
 - Suitability for:
   - Heavy video FX and complex compositions  
-  - $4\text{K}$ timeline work and exporting  
+  - 4K timeline work and export  
   - Color‑critical editing  
   - Mobility / travel  
   - Large, multitasking project workflows  
+
+Priority for Resolve/After Effects is given to:
+
+1. Multi‑core CPU performance  
+2. GPU performance and VRAM  
+3. RAM **capacity and speed**  
+4. Display quality (resolution, color accuracy, brightness)  
+5. Secondary: battery life and mobility  
 
 ---
 
 ### 3. Configuration Overview
 
-#### Table 1. Base Configurations (Online prices, RSD)
+#### Table 1. Base Configurations (Online prices, RSD – **sorted from lowest to highest price**)
 
-| Model                              | CPU                               | RAM         | Storage         | GPU                    | Display                                                                 | Battery | Weight | Price (RSD, online) |
-|------------------------------------|-----------------------------------|-------------|-----------------|------------------------|-------------------------------------------------------------------------|---------|--------|----------------------|
-| Lenovo Legion Slim 5 16AHP9        | Ryzen 7 8845HS (8C/16T)          | 16 GB       | 1 TB SSD        | RTX 4060 8 GB          | $16"$, $2560\times1600$, IPS, $350\,\text{nits}$, $165\,\text{Hz}$     | 80 Wh   | 2.3 kg | 175,999              |
-| Lenovo LOQ 15IRX10                 | i7‑13650HX (14C/20T)             | 24 GB       | 1 TB SSD        | RTX 5060 8 GB          | $15.6"$, $1920\times1080$, IPS, $300\,\text{nits}$, $144\,\text{Hz}$   | 60 Wh   | 2.4 kg | 179,999              |
-| Gigabyte Aero X16 AI R             | Ryzen 7 7735HS (8C/16T)          | 16 GB       | 1 TB SSD        | RTX 4050 8 GB          | $16"$, $2560\times1600$, IPS, $400\,\text{nits}$, $165\,\text{Hz}$     | 76 Wh   | 1.9 kg | 184,999              |
-| ASUS ROG Strix G16 G614PH‑RV022    | Ryzen 9 8940HX (16C/32T)         | 16 GB       | 1 TB SSD        | RTX 5050 8 GB          | $16"$, $1920\times1200$, IPS, $300\,\text{nits}$, $165\,\text{Hz}$     | 90 Wh   | 2.5 kg | 189,999              |
-| Lenovo LOQ 15ARP9                  | Ryzen 7 7435HS (8C/16T)          | 24 GB       | 1 TB SSD        | RTX 4070 8 GB          | $15.6"$, $1920\times1080$, IPS, $300\,\text{nits}$, $144\,\text{Hz}$   | 60 Wh   | 2.38 kg| 199,999              |
-| Lenovo Legion 5 16IRX9             | i7‑14650HX (16C/24T)             | 32 GB       | 1 TB SSD        | RTX 4070 8 GB, 140 W   | $16"$, $2560\times1600$, IPS, $350\,\text{nits}$, 100% sRGB, $165\,\text{Hz}$ | 80 Wh   | 2.36 kg| 219,999              |
-| Lenovo Legion 5 15AKP10 (OLED)     | Ryzen AI 7 350 (8C/16T)          | 32 GB       | 1 TB SSD        | RTX 5060 8 GB, 115 W   | $15.1"$, $2560\times1600$, OLED, $500\,\text{nits}$ typ / $1000\,\text{nits}$ peak, $165\,\text{Hz}$, 100% DCI‑P3 | 80 Wh   | 2.0 kg | 201,999              |
-| Lenovo Legion Pro 5 16ADR10        | Ryzen 9 8945HX (16C/32T)         | 32 GB       | 1 TB SSD        | RTX 5050 8 GB, 115 W   | $16"$, $2560\times1600$, IPS, $500\,\text{nits}$, $240\,\text{Hz}$, 100% DCI‑P3 | 80 Wh   | 2.4 kg | 207,999              |
+| Model                           | CPU                               | RAM (type/speed)           | Storage    | GPU                         | Display                                                                 | Battery | Weight | Price (RSD, online) |
+|---------------------------------|-----------------------------------|----------------------------|------------|-----------------------------|-------------------------------------------------------------------------|---------|--------|----------------------|
+| Lenovo Legion Slim 5 16AHP9    | Ryzen 7 8845HS (8C/16T)          | 16 GB DDR5‑5600            | 1 TB SSD   | RTX 4060 8 GB               | 16″, 2560×1600, IPS, 350 nits, 165 Hz                                   | 80 Wh   | 2.3 kg | 175,999              |
+| Lenovo LOQ 15IRX10             | i7‑13650HX (14C/20T)             | 24 GB DDR5‑4800            | 1 TB SSD   | RTX 5060 8 GB               | 15.6″, 1920×1080, IPS, 300 nits, 144 Hz                                 | 60 Wh   | 2.4 kg | 179,999              |
+| Gigabyte Aero X16 AI R         | Ryzen 7 7735HS (8C/16T)          | 16 GB DDR5‑5600            | 1 TB SSD   | RTX 4050 8 GB               | 16″, 2560×1600, IPS, 400 nits, 165 Hz (Pantone)                         | 76 Wh   | 1.9 kg | 184,999              |
+| ASUS ROG Strix G16 G614PH      | Ryzen 9 8940HX (16C/32T)         | 16 GB DDR5‑5200            | 1 TB SSD   | RTX 5050 8 GB               | 16″, 1920×1200, IPS, 300 nits, 165 Hz                                   | 90 Wh   | 2.5 kg | 189,999              |
+| Lenovo LOQ 15ARP9              | Ryzen 7 7435HS (8C/16T)          | 24 GB DDR5‑4800            | 1 TB SSD   | RTX 4070 8 GB               | 15.6″, 1920×1080, IPS, 300 nits, 144 Hz                                 | 60 Wh   | 2.38 kg| 199,999              |
+| Lenovo Legion 5 15AKP10 (OLED) | Ryzen AI 7 350 (8C/16T)          | 32 GB DDR5‑5600            | 1 TB SSD   | RTX 5060 8 GB, 115 W        | 15.1″, 2560×1600, OLED, 500–1000 nits, 165 Hz, 100% DCI‑P3              | 80 Wh   | 2.0 kg | 201,999              |
+| Lenovo Legion Pro 5 16ADR10    | Ryzen 9 8945HX (16C/32T)         | 32 GB DDR5‑5200            | 1 TB SSD   | RTX 5050 8 GB, 115 W        | 16″, 2560×1600, IPS, 500 nits, 240 Hz, 100% DCI‑P3                      | 80 Wh   | 2.4 kg | 207,999              |
+| Lenovo Legion 5 16IRX9         | i7‑14650HX (16C/24T)             | 32 GB DDR5‑5600            | 1 TB SSD   | RTX 4070 8 GB, 140 W        | 16″, 2560×1600, IPS, 350 nits, 100% sRGB, 165 Hz                        | 80 Wh   | 2.36 kg| 219,999              |
 
-All models include a $1\,\text{TB}$ NVMe SSD, which is adequate for demanding video editing workflows. For larger projects, adding an external NVMe SSD is still recommended.
+Notes:
 
----
-
-### 4. Methodology (unchanged core principles)
-
-Same as in the original report, with the addition that:
-
-- New CPUs (Intel i7‑14650HX, AMD Ryzen AI 7 350, AMD Ryzen 9 8945HX) are positioned using recent Cinebench R23 / 2024 data.  
-- For the new Legion models, thermals and battery behavior are informed by early user reports and reviews.
+- **All models use DDR5 system RAM**; there is no DDR6/DDR7 system memory in this list.  
+- GPU VRAM is GDDR6 (RTX 4070/4060/4050) or GDDR7 (RTX 5060/5050).  
+- All have a 1 TB NVMe SSD; for heavy video work, an additional external NVMe SSD is recommended.
 
 ---
 
-### 5. Spec‑by‑Spec Comparative Analysis (Updated)
+### 4. Methodology
+
+The evaluation is based on:
+
+1. **Raw specifications**  
+   - CPU (cores/threads, generation, class)  
+   - GPU (tier, VRAM type)  
+   - RAM (capacity **and** DDR5 speed)  
+   - Display (size, resolution, panel type, color coverage, brightness)  
+   - Battery capacity and chassis/weight  
+
+2. **Synthetic benchmarks**  
+   - CPU: Cinebench R23 multi‑core used as a reference.  
+   - GPU: 3DMark Time Spy GPU scores used to rank RTX 4050–4070/5050/5060 tiers.  
+
+3. **Application‑level behavior**  
+   - DaVinci Resolve: timeline smoothness, grading performance, noise reduction, export times.  
+   - Adobe After Effects: preview performance, composition responsiveness, render/export times.  
+
+4. **User‑reported issues**  
+   - Stability (BSOD, random reboots, sleep/wake problems)  
+   - Thermals and fan noise  
+   - Build quality, input devices, ports  
+
+Priority order for Resolve/After Effects:
+
+1. CPU multi‑core  
+2. GPU (tier + VRAM)  
+3. RAM capacity (and then speed)  
+4. Screen quality  
+5. Battery/mobility  
+
+---
+
+### 5. Spec‑by‑Spec Comparative Analysis
 
 #### 5.1 CPU
 
-Approximate multi‑threaded Cinebench R23 performance:
+Approximate relative multi‑threaded performance (Cinebench R23 multi‑core):
 
-- Ryzen 9 8945HX (Legion Pro 5): $\sim 35{,}000$ points  
-- Ryzen 9 8940HX (ROG Strix G16): $\sim 30{,}000$–$32{,}000$  
-- i7‑14650HX (Legion 5 16IRX9): $\sim 20{,}000$–$24{,}000$  
-- i7‑13650HX (LOQ 15IRX10): $\sim 19{,}000$–$21{,}000$  
-- Ryzen AI 7 350 (Legion 5 OLED): $\sim 17{,}000$–$18{,}000$  
-- Ryzen 7 8845HS / 7735HS / 7435HS: $\sim 14{,}000$–$16{,}000$ (grouped)
+- Ryzen 9 8945HX: ≈ 35,000 points  
+- Ryzen 9 8940HX: ≈ 30,000–32,000 points  
+- i7‑14650HX: ≈ 20,000–24,000 points  
+- i7‑13650HX: ≈ 19,000–21,000 points  
+- Ryzen AI 7 350: ≈ 17,000–18,000 points  
+- Ryzen 7 8845HS / 7735HS / 7435HS: ≈ 14,000–16,000 points  
 
-**Updated CPU performance ranking (per laptop):**
+**CPU ranking (per laptop):**
 
-| Rank | Model                          | CPU                  | Cores / Threads | Notes                                                              |
-|------|--------------------------------|----------------------|-----------------|--------------------------------------------------------------------|
-| 1    | Lenovo Legion Pro 5 16ADR10    | Ryzen 9 8945HX       | 16 / 32         | Fastest CPU here; excellent for heavy AE and render workloads     |
-| 2    | ASUS ROG Strix G16             | Ryzen 9 8940HX       | 16 / 32         | Very close to 8945HX, slightly behind                             |
-| 3    | Lenovo Legion 5 16IRX9         | i7‑14650HX           | 16 / 24         | Strong upper‑tier CPU; ahead of 13650HX                           |
-| 4    | Lenovo LOQ 15IRX10             | i7‑13650HX           | 14 / 20         | Strong mixed CPU/GPU workloads                                    |
-| 5    | Lenovo Legion 5 15AKP10 (OLED) | Ryzen AI 7 350       | 8 / 16          | Modern 8‑core; near‑desktop‑class performance for its class       |
-| 6    | Lenovo Legion Slim 5 16AHP9    | Ryzen 7 8845HS       | 8 / 16          | Efficient, solid                                                   |
-| 7    | Gigabyte Aero X16              | Ryzen 7 7735HS       | 8 / 16          | Slightly behind 8845HS                                            |
-| 8    | Lenovo LOQ 15ARP9              | Ryzen 7 7435HS       | 8 / 16          | Adequate; GPU is its main strength                                |
+| Rank | Model                          | CPU                  | Cores / Threads | Notes                                                |
+|------|--------------------------------|----------------------|-----------------|------------------------------------------------------|
+| 1    | Lenovo Legion Pro 5 16ADR10    | Ryzen 9 8945HX       | 16 / 32         | Fastest CPU; ideal for heavy AE and renders         |
+| 2    | ASUS ROG Strix G16             | Ryzen 9 8940HX       | 16 / 32         | Very close to 8945HX                                |
+| 3    | Lenovo Legion 5 16IRX9         | i7‑14650HX           | 16 / 24         | Strong HX CPU; ahead of 13650HX                     |
+| 4    | Lenovo LOQ 15IRX10             | i7‑13650HX           | 14 / 20         | Strong mixed CPU/GPU workloads                      |
+| 5    | Lenovo Legion 5 15AKP10 (OLED) | Ryzen AI 7 350       | 8 / 16          | Modern 8‑core; very capable for editing             |
+| 6    | Lenovo Legion Slim 5 16AHP9    | Ryzen 7 8845HS       | 8 / 16          | Efficient, solid                                    |
+| 7    | Gigabyte Aero X16              | Ryzen 7 7735HS       | 8 / 16          | Slightly behind 8845HS                              |
+| 8    | Lenovo LOQ 15ARP9              | Ryzen 7 7435HS       | 8 / 16          | Adequate; GPU is its main strength                  |
 
 **Implications for editing:**
 
-- For CPU‑heavy After Effects and long renders, Legion Pro 5 16ADR10 and ROG Strix G16 are the clear leaders.  
-- Legion 5 16IRX9 is not far behind but adds a much stronger GPU vs the Strix.  
-- Legion 5 15AKP10 (Ryzen AI 7 350) is clearly stronger than the older 8‑core Ryzens and roughly on par with mid‑high Intel HX parts in many multi‑core tests.  
+- For **CPU‑heavy After Effects** (lots of effects, expressions, long renders), the Legion Pro 5 and ROG Strix G16 are top performers.  
+- The Legion 5 16IRX9 and Legion 5 OLED are only one step behind, and often feel just as fast in real project work, especially when the GPU is heavily used.
 
 ---
 
-#### 5.2 RAM
+#### 5.2 RAM (Type, Speed, Capacity)
 
-- $32\,\text{GB}$: all three new Legion models (16IRX9, 15AKP10, Pro 5)  
-- $24\,\text{GB}$: LOQ 15IRX10, LOQ 15ARP9  
-- $16\,\text{GB}$: Legion Slim 5, Aero X16, ROG Strix G16  
+All eight laptops use **DDR5** RAM. Differences:
 
-**Updated RAM ranking:**
+- Capacities: 16 GB, 24 GB, 32 GB  
+- Speeds: DDR5‑4800, DDR5‑5200, DDR5‑5600  
 
-| Rank | Model(s)                                       | RAM        |
-|------|------------------------------------------------|------------|
-| 1    | Legion 5 16IRX9 / 15AKP10 / Pro 5 16ADR10      | 32 GB      |
-| 2    | LOQ 15IRX10 / LOQ 15ARP9                       | 24 GB      |
-| 3    | Legion Slim 5 / Aero X16 / ROG Strix G16       | 16 GB      |
+**By capacity:**
 
-For $4\text{K}$ Resolve + AE + browser + other tools, $32\,\text{GB}$ is a real quality‑of‑life upgrade (fewer cache flushes, fewer “out of memory”‑style slowdowns).
+- 32 GB  
+  - Lenovo Legion 5 16IRX9 – 32 GB DDR5‑5600  
+  - Lenovo Legion 5 15AKP10 (OLED) – 32 GB DDR5‑5600  
+  - Lenovo Legion Pro 5 16ADR10 – 32 GB DDR5‑5200  
+
+- 24 GB  
+  - Lenovo LOQ 15IRX10 – 24 GB DDR5‑4800  
+  - Lenovo LOQ 15ARP9 – 24 GB DDR5‑4800  
+
+- 16 GB  
+  - Lenovo Legion Slim 5 16AHP9 – 16 GB DDR5‑5600  
+  - Gigabyte Aero X16 – 16 GB DDR5‑5600  
+  - ASUS ROG Strix G16 – 16 GB DDR5‑5200  
+
+**By speed:**
+
+- DDR5‑5600: Legion Slim 5, Aero X16, Legion 5 16IRX9, Legion 5 15AKP10  
+- DDR5‑5200: ROG Strix G16, Legion Pro 5  
+- DDR5‑4800: LOQ 15IRX10, LOQ 15ARP9  
+
+**Practical impact:**
+
+- For editing, **capacity** (going from 16 → 24 → 32 GB) is more important than 4800 vs 5600 MHz.  
+- DDR5‑5600 is still a plus, especially with i7‑14650HX and Ryzen AI, but the performance jump is not as large as adding more GB.  
+- For large AE comps and heavy timeline caching, 32 GB is strongly recommended.
 
 ---
 
 #### 5.3 GPU
 
-Approximate relative Time Spy GPU performance:
+Indicative relative GPU ranking (Time Spy GPU, roughly):
 
-- RTX 4070 $8\,\text{GB}$ ($\sim 140\,\text{W}$ class): top in this group  
-- RTX 4060 $8\,\text{GB}$ (Legion Slim)  
-- RTX 5060 $8\,\text{GB}$ (around fast 4060 level but more efficient)  
-- RTX 5050 $8\,\text{GB}$ (mid‑range, between 4050 and 4060)  
-- RTX 4050 $8\,\text{GB}$ (entry midrange)
+- RTX 4070 8 GB (140 W): top tier in this group  
+- RTX 4060 8 GB: strong mid‑high  
+- RTX 5060 8 GB (GDDR7): similar to a fast 4060, slightly more efficient  
+- RTX 5050 8 GB (GDDR7): mid‑range, between 4050 and 4060  
+- RTX 4050 8 GB: lower mid‑range  
 
-**Updated GPU ranking (raw performance):**
+**GPU ranking (per laptop):**
 
-| Tier | GPU               | Model(s)                               | Notes                                                                       |
-|------|-------------------|----------------------------------------|-----------------------------------------------------------------------------|
-| 1    | RTX 4070 8 GB     | LOQ 15ARP9, Legion 5 16IRX9            | Best for GPU‑heavy Resolve work, NR, smart upscaling                       |
-| 2    | RTX 4060 8 GB     | Legion Slim 5 16AHP9                   | Strong mid‑high; great for $4\text{K}$ timelines                            |
-| 2    | RTX 5060 8 GB     | LOQ 15IRX10, Legion 5 15AKP10 (OLED)   | Similar to/just under 4060–4070, but more efficient                        |
-| 3    | RTX 5050 8 GB     | ROG Strix G16, Legion Pro 5 16ADR10    | Clearly usable for $4\text{K}$, but weaker than 4060/4070 in heavy nodes   |
-| 4    | RTX 4050 8 GB     | Aero X16                               | Fine for FHD/light $4\text{K}$, less ideal for stacked NR and heavy OFX    |
+| Tier | GPU               | Model(s)                               | Notes                                                      |
+|------|-------------------|----------------------------------------|------------------------------------------------------------|
+| 1    | RTX 4070 8 GB     | Lenovo LOQ 15ARP9, Legion 5 16IRX9     | Best for GPU‑heavy Resolve, NR, upscaling                 |
+| 2    | RTX 4060 8 GB     | Legion Slim 5 16AHP9                   | Strong for 4K timelines                                   |
+| 2    | RTX 5060 8 GB     | LOQ 15IRX10, Legion 5 15AKP10 (OLED)   | Near 4060/4070; very capable mid‑high tier               |
+| 3    | RTX 5050 8 GB     | ROG Strix G16, Legion Pro 5 16ADR10    | Solid 4K performer, but behind 4060/4070 in heavy chains |
+| 4    | RTX 4050 8 GB     | Aero X16                               | Good for FHD/light 4K, limited for very heavy FX         |
 
 **Implications:**
 
-- For DaVinci Resolve, RTX 4070 models (LOQ 15ARP9, Legion 5 16IRX9) have the most headroom.  
-- Legion 5 15AKP10 with RTX 5060 is a very attractive balance: strong GPU + best‑in‑group display.  
-- RTX 5050 models (ROG Strix, Legion Pro 5) are perfectly capable, but if your Resolve nodes are very GPU‑heavy, the 4070 machines will export faster.
+- For **DaVinci Resolve**, where GPU is critical, the RTX 4070 laptops (LOQ 15ARP9 and Legion 5 16IRX9) are the best choice.  
+- RTX 5060 and 4060 are strong and will handle most 4K projects comfortably.  
+- RTX 5050 is fine but more mid‑range; RTX 4050 is the most limiting for heavy 4K FX.
 
 ---
 
 #### 5.4 Display
 
-**Resolution & size:**
+**Resolution and size:**
 
-- $16"$, $2560\times1600$ (16:10): Legion Slim 5, Aero X16, Legion 5 16IRX9, Legion Pro 5  
-- $16"$, $1920\times1200$ (16:10): ROG Strix G16  
-- $15.6"$, $1920\times1080$ (16:9): LOQ 15IRX10, LOQ 15ARP9  
-- $15.1"$, $2560\times1600$ OLED (16:10): Legion 5 15AKP10  
+- 16″, 2560×1600 (16:10): Legion Slim 5, Aero X16, Legion 5 16IRX9, Legion Pro 5  
+- 16″, 1920×1200 (16:10): ROG Strix G16  
+- 15.6″, 1920×1080 (16:9): LOQ 15IRX10, LOQ 15ARP9  
+- 15.1″, 2560×1600 (16:10) OLED: Legion 5 15AKP10  
 
-**Color & brightness highlights:**
+**Quality & color:**
 
-- Legion 5 15AKP10 (OLED): $2560\times1600$ OLED, 100% DCI‑P3, $500\,\text{nits}$ typical / $1000\,\text{nits}$ peak, HDR True Black 600, Dolby Vision.  
-- Legion Pro 5 16ADR10: $2560\times1600$ IPS, $500\,\text{nits}$, 100% DCI‑P3, $240\,\text{Hz}$, HDR400, Dolby Vision, G‑SYNC.  
-- Aero X16: $2560\times1600$ IPS, Pantone‑validated, $\sim 400\,\text{nits}$, 16:10.  
-- Legion 5 16IRX9: $2560\times1600$ IPS, $350\,\text{nits}$, 100% sRGB, Dolby Vision, G‑SYNC.  
-- Legion Slim 5: $2560\times1600$ IPS, $350\,\text{nits}$, Dolby Vision.  
-- ROG Strix G16: $1920\times1200$ IPS, $300\,\text{nits}$, 16:10, HDR support.  
-- LOQ models: $1920\times1080$ IPS, $\sim 300\,\text{nits}$, $144\,\text{Hz}$, basic color.
+- Legion 5 15AKP10 (OLED): 2560×1600 OLED, 100% DCI‑P3, 500 nits typical / 1000 nits peak, Dolby Vision, DisplayHDR True Black 600 – best contrast and HDR.  
+- Legion Pro 5 16ADR10: 2560×1600 IPS, 500 nits, 100% DCI‑P3, 240 Hz, Dolby Vision, HDR400 – excellent non‑OLED panel.  
+- Aero X16: 2560×1600 IPS, Pantone‑validated, ~400 nits – very good color accuracy.  
+- Legion 5 16IRX9: 2560×1600 IPS, 350 nits, 100% sRGB, Dolby Vision, G‑SYNC – strong for editing.  
+- Legion Slim 5: 2560×1600 IPS, 350 nits, Dolby Vision.  
+- ROG Strix G16: 1920×1200 IPS, 300 nits – decent but lower resolution.  
+- LOQ models: 1920×1080 IPS, ~300 nits – functional but least ideal for detailed color work.
 
-**Updated display ranking (for editing / grading):**
+**Display ranking (for editing/grading):**
 
-| Rank | Model                          | Size / Res              | Panel / Notes                                           |
-|------|--------------------------------|-------------------------|---------------------------------------------------------|
-| 1    | Legion 5 15AKP10 (OLED)        | 15.1", 2560×1600        | OLED, 100% DCI‑P3, 500–1000 nits, True Black HDR        |
-| 2    | Legion Pro 5 16ADR10           | 16", 2560×1600          | IPS, 500 nits, 100% DCI‑P3, 240 Hz, HDR400              |
-| 3    | Gigabyte Aero X16              | 16", 2560×1600          | IPS, Pantone, 400 nits                                  |
-| 4    | Legion 5 16IRX9                | 16", 2560×1600          | IPS, 350 nits, 100% sRGB, Dolby Vision                  |
-| 5    | Legion Slim 5 16AHP9           | 16", 2560×1600          | IPS, 350 nits, Dolby Vision                             |
-| 6    | ASUS ROG Strix G16             | 16", 1920×1200          | IPS, 300 nits, 16:10                                    |
-| 7    | LOQ 15IRX10 / LOQ 15ARP9       | 15.6", 1920×1080        | IPS, 300 nits, 144 Hz                                   |
-
-For color‑critical grading, the new Legion 5 OLED is now the clear leader, followed by Legion Pro 5 and Aero X16.
+| Rank | Model                          | Size / Res       | Panel / Notes                                                  |
+|------|--------------------------------|------------------|----------------------------------------------------------------|
+| 1    | Legion 5 15AKP10 (OLED)        | 15.1″, 2560×1600 | OLED, 100% DCI‑P3, 500–1000 nits, HDR True Black               |
+| 2    | Legion Pro 5 16ADR10           | 16″, 2560×1600   | IPS, 500 nits, 100% DCI‑P3, 240 Hz, HDR400                     |
+| 3    | Gigabyte Aero X16              | 16″, 2560×1600   | IPS, Pantone‑validated, ~400 nits                              |
+| 4    | Legion 5 16IRX9                | 16″, 2560×1600   | IPS, 350 nits, 100% sRGB, Dolby Vision                         |
+| 5    | Legion Slim 5 16AHP9           | 16″, 2560×1600   | IPS, 350 nits, Dolby Vision                                    |
+| 6    | ASUS ROG Strix G16             | 16″, 1920×1200   | IPS, 300 nits, 16:10                                           |
+| 7    | LOQ 15IRX10 / LOQ 15ARP9       | 15.6″, 1920×1080 | IPS, 300 nits, 144 Hz                                          |
 
 ---
 
@@ -194,263 +247,356 @@ For color‑critical grading, the new Legion 5 OLED is now the clear leader, fol
 
 Nominal capacities:
 
-- $90\,\text{Wh}$: ROG Strix G16  
-- $80\,\text{Wh}$: Legion Slim 5, Legion 5 16IRX9, Legion 5 15AKP10, Legion Pro 5 16ADR10  
-- $76\,\text{Wh}$: Aero X16  
-- $60\,\text{Wh}$: LOQ 15IRX10 / LOQ 15ARP9  
+- 90 Wh: ROG Strix G16  
+- 80 Wh: Legion Slim 5, Legion 5 16IRX9, Legion 5 15AKP10, Legion Pro 5  
+- 76 Wh: Aero X16  
+- 60 Wh: LOQ 15IRX10, LOQ 15ARP9  
 
-Real‑world user feedback continues to show:
+Real‑world:
 
-- Legion and Legion Pro machines with HX CPUs (Intel HX / Ryzen 9 HX) often see $1.5$–$3$ hours of mixed use and very short battery life under heavy load.  
-- The OLED Legion 5 with RTX 5060 is also praised for performance but criticized for short battery life, especially in gaming or GPU‑heavy work.  
-
-For serious editing, all of these laptops should be considered “plugged‑in machines”.
+- HX‑class CPUs (R9 8940/8945HX, i7‑14650HX) plus dGPU typically give **1.5–3 hours** of mixed use and much less while editing.  
+- OLED (Legion 5 15AKP10) also drains fast under GPU load.  
+- For serious editing, **assume AC power** as the default.
 
 ---
 
 #### 5.6 Weight and Mobility
 
-- Gigabyte Aero X16: $1.9\,\text{kg}$ — still the lightest.  
-- Legion 5 15AKP10 (OLED): $2.0\,\text{kg}$ — second‑lightest with a high‑end GPU and OLED panel.  
-- Legion Slim 5 16AHP9: $2.3\,\text{kg}$  
-- Legion 5 16IRX9: $2.36\,\text{kg}$  
-- LOQ 15ARP9: $2.38\,\text{kg}$  
-- Legion Pro 5 16ADR10: $2.4\,\text{kg}$  
-- LOQ 15IRX10: $2.4\,\text{kg}$  
-- ASUS ROG Strix G16: $2.5\,\text{kg}$  
+- Aero X16: 1.9 kg – lightest, 16″ 1600p panel.  
+- Legion 5 15AKP10 (OLED): 2.0 kg – second‑lightest with OLED and strong GPU.  
+- Legion Slim 5: 2.3 kg.  
+- Legion 5 16IRX9: 2.36 kg.  
+- LOQ 15ARP9: 2.38 kg.  
+- Legion Pro 5: 2.4 kg.  
+- LOQ 15IRX10: 2.4 kg.  
+- ROG Strix G16: 2.5 kg – heaviest.
 
 ---
 
-### 6. Combined Spec Rankings (Updated)
+### 6. Combined Spec Rankings
 
 #### 6.1 RAM + GPU (Resolve / GPU‑heavy focus)
 
-| Rank | Model                          | RAM   | GPU          | Comment                                                            |
-|------|--------------------------------|-------|--------------|--------------------------------------------------------------------|
-| 1    | Legion 5 16IRX9                | 32 GB | RTX 4070     | Best overall GPU + RAM combo; strong CPU and 1600p IPS display     |
-| 1    | LOQ 15ARP9                     | 24 GB | RTX 4070     | Same GPU; less RAM and basic 1080p panel                           |
-| 3    | Legion 5 15AKP10 (OLED)        | 32 GB | RTX 5060     | Very strong GPU, plus best display; slightly below 4070 in raw     |
-| 4    | LOQ 15IRX10                    | 24 GB | RTX 5060     | Strong mid‑high GPU and good RAM                                   |
-| 5    | Legion Slim 5                  | 16 GB | RTX 4060     | Solid GPU; RAM upgrade recommended                                 |
-| 6    | Legion Pro 5 16ADR10           | 32 GB | RTX 5050     | Plenty of RAM; GPU mid‑range, but great screen                     |
-| 7    | ROG Strix G16                  | 16 GB | RTX 5050     | Strong CPU, but only 16 GB and lower‑res screen                    |
-| 8    | Aero X16                       | 16 GB | RTX 4050     | Best mobility/screen, but weakest GPU                              |
+| Rank | Model                          | RAM (type/speed) | GPU          | Comment                                                            |
+|------|--------------------------------|------------------|--------------|--------------------------------------------------------------------|
+| 1    | Legion 5 16IRX9                | 32 GB DDR5‑5600  | RTX 4070     | Best overall RAM + GPU combo; strong CPU and 1600p IPS display     |
+| 1    | LOQ 15ARP9                     | 24 GB DDR5‑4800  | RTX 4070     | Same GPU; less RAM, 1080p screen                                  |
+| 3    | Legion 5 15AKP10 (OLED)        | 32 GB DDR5‑5600  | RTX 5060     | Very strong GPU and RAM plus best display                          |
+| 4    | LOQ 15IRX10                    | 24 GB DDR5‑4800  | RTX 5060     | Strong mid‑high GPU and good RAM                                   |
+| 5    | Legion Pro 5 16ADR10           | 32 GB DDR5‑5200  | RTX 5050     | Plenty of RAM; mid‑range GPU, excellent screen                     |
+| 6    | Legion Slim 5 16AHP9           | 16 GB DDR5‑5600  | RTX 4060     | Solid GPU; RAM upgrade recommended                                 |
+| 7    | ASUS ROG Strix G16             | 16 GB DDR5‑5200  | RTX 5050     | Strong CPU, but 16 GB RAM and 1200p screen                         |
+| 8    | Aero X16                       | 16 GB DDR5‑5600  | RTX 4050     | Best portability/screen, weakest GPU                               |
 
 #### 6.2 CPU + RAM + GPU (Heavy Video Editing Overall)
 
 | Rank | Model                          | Profile Summary                                                                                      |
 |------|--------------------------------|------------------------------------------------------------------------------------------------------|
-| 1    | Lenovo Legion 5 16IRX9         | Strong i7‑14650HX, RTX 4070, 32 GB RAM, $16"$ $1600\text{p}$ IPS – best balanced editor/gaming machine         |
-| 2    | Lenovo Legion Pro 5 16ADR10    | Fastest CPU (R9 8945HX) + 32 GB + RTX 5050, $500\,\text{nit}$ DCI‑P3 $1600\text{p}$ screen – ideal for AE‑heavy work   |
-| 3    | Lenovo Legion 5 15AKP10 (OLED) | Ryzen AI 7 350, RTX 5060, 32 GB, $15.1"$ $1600\text{p}$ OLED – fantastic color + strong all‑round performance  |
-| 4    | LOQ 15ARP9                     | RTX 4070 + 24 GB; CPU adequate; best budget 4070 option                                             |
-| 5    | LOQ 15IRX10                    | Strong i7‑13650HX + 24 GB + RTX 5060 – excellent value; FHD screen only                             |
-| 6    | ASUS ROG Strix G16             | R9 8940HX + RTX 5050 + 16 GB – CPU monster, but RAM and screen lag behind new Legions               |
-| 7    | Legion Slim 5 16AHP9           | Great all‑rounder; 16 GB RAM is the main limitation                                                 |
-| 8    | Aero X16                       | Best portability/screen (IPS) but weakest GPU and 16 GB RAM                                         |
+| 1    | Lenovo Legion 5 16IRX9         | i7‑14650HX, 32 GB DDR5‑5600, RTX 4070, 16″ 1600p IPS – best overall balance for Resolve + AE        |
+| 2    | Lenovo Legion Pro 5 16ADR10    | R9 8945HX, 32 GB DDR5‑5200, RTX 5050, 16″ 1600p DCI‑P3 500 nits – ideal for AE‑heavy workflows      |
+| 3    | Lenovo Legion 5 15AKP10 (OLED) | Ryzen AI 7 350, 32 GB DDR5‑5600, RTX 5060, 15.1″ 1600p OLED – excellent performance + best display  |
+| 4    | Lenovo LOQ 15ARP9              | Ryzen 7 7435HS, 24 GB DDR5‑4800, RTX 4070 – best budget 4070 option, FHD screen                     |
+| 5    | Lenovo LOQ 15IRX10             | i7‑13650HX, 24 GB DDR5‑4800, RTX 5060 – great value, 1080p screen                                   |
+| 6    | ASUS ROG Strix G16             | R9 8940HX, 16 GB DDR5‑5200, RTX 5050 – CPU monster, mid GPU, 16 GB RAM                              |
+| 7    | Legion Slim 5 16AHP9           | Ryzen 7 8845HS, 16 GB DDR5‑5600, RTX 4060 – good all‑rounder; RAM is the main limitation            |
+| 8    | Aero X16                       | Ryzen 7 7735HS, 16 GB DDR5‑5600, RTX 4050 – best portability, weakest GPU                           |
 
 ---
 
-### 7. Benchmark‑Driven Performance Interpretation (Updated)
+### 7. Benchmark‑Driven Performance Interpretation
 
 #### 7.1 DaVinci Resolve
 
-- **Most GPU‑bound workflows** (grade + NR + OFX at $4\text{K}$):  
-  - Legion 5 16IRX9 / LOQ 15ARP9 (RTX 4070) will handle the heaviest Resolve pipelines with the most headroom.  
-  - Legion 5 15AKP10 (OLED) and LOQ 15IRX10 (RTX 5060) are very close and perfectly fine for complex $4\text{K}$ timelines.  
+- **GPU‑bound tasks** (color grading, noise reduction, OFX, 4K+ timelines):  
+  - Legion 5 16IRX9 and LOQ 15ARP9 (RTX 4070) are top performers with the most headroom.  
+  - Legion 5 OLED and LOQ 15IRX10 (RTX 5060) are extremely capable and close behind.  
+  - Legion Pro 5 and ROG Strix (RTX 5050) are fine for 4K, but slower in extremely heavy node trees.  
+  - Aero X16 (RTX 4050) is best for FHD and light 4K; heavy 4K NR and OFX will stress it.
 
-- **Balanced CPU+GPU tasks:**  
-  - Legion 5 16IRX9 offers a better balance than the ROG Strix: slightly weaker CPU but much stronger GPU and 32 GB RAM.  
-  - Legion Pro 5 16ADR10 is ideal when exports rely heavily on CPU (complex temporal effects, multi‑layer AE comps rendered via Media Encoder) and when the DCI‑P3 $500\,\text{nit}$ panel is important.
+- **Balanced CPU+GPU workloads:**  
+  - Legion 5 16IRX9 offers the best mix of strong CPU, 32 GB fast RAM, and a high‑tier GPU.  
+  - Legion Pro 5 shines when more work is CPU‑limited (complex temporal effects, lots of layers).
 
 #### 7.2 Adobe After Effects
 
-- **CPU‑heavy previews / FX:**  
-  - Legion Pro 5 16ADR10 (R9 8945HX) and ROG Strix G16 (R9 8940HX) are top‑tier for raw CPU performance.  
-  - Legion 5 16IRX9 (i7‑14650HX) and Legion 5 15AKP10 (Ryzen AI 7 350) are not far behind and often helped by faster RAM and better GPUs.  
+- **CPU‑heavy previews and renders:**  
+  - Legion Pro 5 and ROG Strix (Ryzen 9 HX) lead.  
+  - Legion 5 16IRX9 and Legion 5 OLED follow closely and are more than fast enough for real‑world AE work.
 
-- **RAM utilization:**  
-  - $32\,\text{GB}$ systems (all three new Legions) are now the best choices for very large AE projects.  
-  - $24\,\text{GB}$ LOQ systems remain solid; $16\,\text{GB}$ machines will be a limitation sooner in AE.
+- **RAM‑dependent tasks:**  
+  - 32 GB models (Legion 5 16IRX9, Legion 5 OLED, Legion Pro 5) handle large compositions and long timelines best.  
+  - 24 GB LOQ models are solid and a big step up from 16 GB.  
+  - 16 GB systems are acceptable for lighter work but will hit limits with heavy comps and big caches.
 
 ---
 
-### 8. Model‑By‑Model Findings (Performance + Issues) – New Models
+### 8. Model‑By‑Model Findings
 
-*(Existing 5 model summaries from the original report remain valid; below are the additional three models.)*
-
-#### 8.6 Lenovo Legion 5 16IRX9 (i7‑14650HX / RTX 4070 / 32 GB)
+#### 8.1 Lenovo Legion Slim 5 16AHP9 (R7 8845HS / RTX 4060 / 16 GB DDR5‑5600)
 
 **Strengths:**
 
-- Very strong CPU+GPU combo for both Resolve and AE: i7‑14650HX plus a $140\,\text{W}$ RTX 4070 and $32\,\text{GB}$ RAM make it capable of heavy $4\text{K}/6\text{K}$ work.  
-- $16"$ $2560\times1600$ IPS panel, 100% sRGB, $165\,\text{Hz}$, Dolby Vision, G‑SYNC – excellent for editing and gaming.  
-- Good port selection (dual USB‑C, HDMI 2.1, LAN, microSD).  
-- Aluminum chassis, solid overall build.
+- Very capable for 4K editing (Resolve and AE) at this price.  
+- Good 16″ 2560×1600 IPS panel with Dolby Vision.  
+- Balanced CPU/GPU for creators and gamers.
 
-**Reported behavior / issues:**
+**Weaknesses / issues:**
 
-- Thermals: many users report surprisingly good thermals when the machine is tuned (undervolt, correct fan curve), even at high GPU wattage; others hit $95$–$100^\circ\text{C}$ on CPU during heavy multi‑core stresses before tuning.  
-- Battery: typical Legion pattern – around $4$ hours light use at best; significantly lower ($1.5$–$3$ h) under high performance modes or with dGPU active.  
-- Occasional reports of power draw exceeding adapter output during very heavy gaming (battery slowly discharging while plugged).
+- 16 GB RAM can be a bottleneck for heavier AE projects and big Resolve timelines (upgrade recommended).  
+- Battery life modest (≈2–3 hours typical use).  
+- Some reports of sleep/resume quirks and fans waking during sleep.
 
 **Summary:**  
-Arguably the strongest all‑round laptop in this whole list for combined Resolve + AE work: 4070 GPU, high‑end CPU, $32\,\text{GB}$ RAM and a $1600\text{p}$ display. The main trade‑offs are typical gaming‑laptop thermals and mediocre battery life.
+Strong value all‑rounder; excellent once upgraded to 32 GB RAM.
 
 ---
 
-#### 8.7 Lenovo Legion 5 15AKP10 (Ryzen AI 7 350 / RTX 5060 / 32 GB / OLED)
+#### 8.2 Lenovo LOQ 15IRX10 (i7‑13650HX / RTX 5060 / 24 GB DDR5‑4800)
 
 **Strengths:**
 
-- OLED display: $15.1"$ $2560\times1600$, 100% DCI‑P3, $500\,\text{nits}$ typical / $1000\,\text{nits}$ peak, HDR True Black 600, Dolby Vision – the best screen here for color‑critical grading and HDR preview.  
-- Ryzen AI 7 350 delivers multi‑core performance close to high‑end 8‑core Ryzens and strong single‑core scores, making it excellent for AE as well.  
-- RTX 5060 ($115\,\text{W}$, GDDR7) is a very capable GPU for $4\text{K}$ editing and GPU‑heavy FX.  
-- $32\,\text{GB}$ DDR5‑5600 and $1\,\text{TB}$ NVMe are ideal for modern editing workloads.  
-- $2.0\,\text{kg}$ weight – very respectable for an OLED gaming / creator laptop.
+- Strong CPU and modern RTX 5060 GPU – good for gaming and editing at 1080p/1440p.  
+- 24 GB RAM is great for multitasking and large projects.  
+- Solid 4K editing capability despite FHD screen.
 
-**Reported behavior / issues:**
+**Weaknesses / issues:**
 
-- Reviews of this OLED Legion 5 family consistently praise performance and display quality, but note short battery life under gaming and demanding workloads; this is consistent with current RTX 5060 + OLED notebooks.  
-- As with any OLED, risk of image retention / burn‑in exists if static UI elements are shown for long periods at high brightness. Good UI discipline and auto‑hide bars are recommended for editors.  
-- Glossy panel: reflections can be problematic in bright rooms.
+- 1080p display with basic color; not ideal for fine color work.  
+- Plastic chassis with some flex; average build feel.  
+- Some user reports of driver‑related BSODs, sleep problems, and mediocre speakers.
 
 **Summary:**  
-For someone who values color accuracy and OLED contrast as highly as raw performance, this machine is a top‑3 choice overall, and #1 for display quality. GPU and CPU are more than sufficient for heavy $4\text{K}$ work; the main compromises are battery life and reflections.
+High performance and RAM for the money; screen and build are main compromises.
 
 ---
 
-#### 8.8 Lenovo Legion Pro 5 16ADR10 (Ryzen 9 8945HX / RTX 5050 / 32 GB)
+#### 8.3 Lenovo LOQ 15ARP9 (R7 7435HS / RTX 4070 / 24 GB DDR5‑4800)
 
 **Strengths:**
 
-- Fastest CPU in this whole lineup: Ryzen 9 8945HX outperforms 8940HX and i7‑14650HX in multi‑core workloads, excellent for AE and CPU‑bound exports.  
-- $32\,\text{GB}$ DDR5 and $1\,\text{TB}$ NVMe – ideal base config.  
-- Strong $16"$ $2560\times1600$ IPS panel: $500\,\text{nits}$, 100% DCI‑P3, $240\,\text{Hz}$, HDR400, Dolby Vision, G‑SYNC – excellent both for gaming and serious grading.  
-- Good ports (2× USB‑C, HDMI 2.1, $2.5\,\text{GbE}$ LAN) and solid build.
+- RTX 4070 and 24 GB RAM – very strong Resolve and GPU‑heavy AE performance.  
+- Great for 4K and even higher‑bitrate timelines.
 
-**Reported behavior / issues:**
+**Weaknesses / issues:**
 
-- User reports for Legion Pro 5 models with Ryzen 9 894x HX show very high CPU temperatures under load, often approaching or touching $100^\circ\text{C}$ in games and heavy tasks, even with decent fan curves.  
-- Battery life in light tasks is frequently reported around $1.5$–$3$ hours depending on mode and refresh rate – typical for HX‑class CPUs and RTX 40/50‑series dGPUs.  
-- As with other Legion Pro models, fans can get loud in performance modes; custom profiles help but may confuse new users.
+- Thermal throttling in some units under sustained heavy loads.  
+- Reports of random reboots and inconsistent GPU power limits if not tuned.  
+- Sleep/wake and Wi‑Fi/Bluetooth quirks.  
+- FHD panel with basic color.
 
 **Summary:**  
-This is effectively the ROG Strix G16 “on steroids” for content creation: similar CPU class, but with $32\,\text{GB}$ RAM and a better $1600\text{p}$, DCI‑P3, $500\,\text{nit}$ screen. GPU (RTX 5050) is mid‑range, so for pure Resolve GPU grunt the 4070 machines are better, but for AE / CPU‑heavy workloads this is now one of the very best options.
+Best pure GPU performance per dinar, but more sensitive to thermals and tuning than Legion 5 16IRX9.
 
 ---
 
-### 9. Use‑Case‑Based Recommendations (Updated)
+#### 8.4 Gigabyte Aero X16 (R7 7735HS / RTX 4050 / 16 GB DDR5‑5600)
 
-#### 9.1 Heavy Video FX & Complex Compositions (AE + Resolve, mixed)
+**Strengths:**
+
+- Excellent 16″ 2560×1600 Pantone‑validated display – great for color work.  
+- Very portable at 1.9 kg.  
+- Good performance for FHD and light 4K projects.
+
+**Weaknesses / issues:**
+
+- RTX 4050 is the weakest GPU here; limiting for very heavy 4K FX.  
+- 16 GB RAM; upgrade recommended for big projects.  
+- Thermal and fan noise under heavy load; thinner chassis is less rigid.
+
+**Summary:**  
+Ideal for mobile editors and color‑critical work with moderate GPU demands.
+
+---
+
+#### 8.5 ASUS ROG Strix G16 (R9 8940HX / RTX 5050 / 16 GB DDR5‑5200)
+
+**Strengths:**
+
+- Very strong CPU; excellent for AE and CPU‑bound work.  
+- Large 90 Wh battery on paper.
+
+**Weaknesses / issues:**
+
+- RTX 5050 mid‑range GPU; weaker than 4060/4070 in heavy Resolve tasks.  
+- 16 GB RAM; upgrade is highly recommended.  
+- 1920×1200 display and 2.5 kg weight – less ideal for travel and detailed grading.  
+- Runs hot and loud under load; mediocre speakers and webcam.
+
+**Summary:**  
+Great CPU platform, but outclassed by new Legion models that bundle better RAM, screen, and GPU balance.
+
+---
+
+#### 8.6 Lenovo Legion 5 16IRX9 (i7‑14650HX / RTX 4070 / 32 GB DDR5‑5600)
+
+**Strengths:**
+
+- Excellent all‑round spec: strong HX CPU, RTX 4070, 32 GB fast DDR5.  
+- 16″ 2560×1600 IPS, 100% sRGB, 165 Hz, Dolby Vision, G‑SYNC.  
+- Good ports, aluminum chassis, solid build.
+
+**Weaknesses / issues:**
+
+- Can reach high CPU temps under heavy load before tuning (undervolt / fan curve helps).  
+- Battery life is typical gaming‑laptop (≈1.5–3 hours active use).  
+- Under extreme loads, some reports of slight battery drain while plugged in.
+
+**Summary:**  
+Probably the **best single laptop** in this list for mixed Resolve + AE: very fast CPU, top‑tier GPU, 32 GB DDR5‑5600, and a good 1600p display.
+
+---
+
+#### 8.7 Lenovo Legion 5 15AKP10 (Ryzen AI 7 350 / RTX 5060 / 32 GB DDR5‑5600 / OLED)
+
+**Strengths:**
+
+- Outstanding 15.1″ 2560×1600 OLED, 100% DCI‑P3, 500–1000 nits, HDR True Black – best display here.  
+- Strong CPU and RTX 5060; great for 4K Resolve and AE.  
+- 32 GB DDR5‑5600 and 1 TB NVMe – excellent base config.  
+- 2.0 kg – relatively light for this performance level.
+
+**Weaknesses / issues:**
+
+- OLED burn‑in risk if static UI elements are displayed at high brightness for long periods.  
+- Glossy panel – reflections in bright rooms.  
+- Battery life limited under GPU‑heavy workloads.
+
+**Summary:**  
+Top choice if display quality and color accuracy are critical. Performance is high enough for demanding 4K work; main trade‑offs are OLED care and reflections.
+
+---
+
+#### 8.8 Lenovo Legion Pro 5 16ADR10 (R9 8945HX / RTX 5050 / 32 GB DDR5‑5200)
+
+**Strengths:**
+
+- Fastest CPU in this lineup; ideal for heavy AE and render jobs.  
+- 32 GB DDR5 and 1 TB SSD – excellent for large projects.  
+- 16″ 2560×1600 IPS, 500 nits, 100% DCI‑P3, 240 Hz, HDR – great for grading and gaming.  
+- Strong port selection (2× USB‑C, 2.5 GbE).
+
+**Weaknesses / issues:**
+
+- Very high CPU temperatures under heavy load; fans can be loud.  
+- Battery life modest (≈1.5–3 hours light use).  
+- Mid‑range RTX 5050 limits some GPU‑heavy Resolve workflows compared to RTX 4070.
+
+**Summary:**  
+An excellent **AE‑centric** and CPU‑focused machine with a great screen. For pure Resolve GPU power, RTX 4070 models are a better fit.
+
+---
+
+### 9. Use‑Case‑Based Recommendations
+
+#### 9.1 Heavy Video FX & Complex Compositions (mixed Resolve + AE)
 
 - **Best all‑round choice:**  
-  Lenovo Legion 5 16IRX9  
-  - Rationale: Strong i7‑14650HX, top‑tier RTX 4070, $32\,\text{GB}$ RAM and a $1600\text{p}$ IPS display. For combined AE + Resolve workloads, this balances CPU, GPU, and RAM better than any other single machine.
+  **Lenovo Legion 5 16IRX9**  
+  - Strong i7‑14650HX, RTX 4070, 32 GB DDR5‑5600, 16″ 1600p IPS.  
+  - Balances CPU, GPU, RAM, and display better than any other single model.
 
-- **Second choice (CPU‑heavy bias / AE‑centric):**  
-  Lenovo Legion Pro 5 16ADR10  
-  - Rationale: Fastest CPU (8945HX) and $32\,\text{GB}$ RAM, great DCI‑P3 screen. GPU is weaker than a 4070 but still fine for $4\text{K}$ workflows.
+- **Second choice (AE‑centric / CPU‑heavy):**  
+  **Lenovo Legion Pro 5 16ADR10**  
+  - R9 8945HX, 32 GB DDR5‑5200, RTX 5050, 16″ 1600p DCI‑P3 500‑nit.  
+  - Best when your work is especially CPU‑limited.
 
-- **Third choice (slightly more budget‑sensitive or OLED preference):**  
-  Lenovo Legion 5 15AKP10 (OLED)  
-  - Rationale: Very strong CPU and RTX 5060, $32\,\text{GB}$ RAM, plus OLED panel. Excellent for FX‑heavy work where color matters.
+- **Third choice (display priority / OLED):**  
+  **Lenovo Legion 5 15AKP10 (OLED)**  
+  - Ryzen AI 7 350, RTX 5060, 32 GB DDR5‑5600, 15.1″ 1600p OLED.  
+  - Ideal when color and HDR preview are as important as raw speed.
 
 ---
 
-#### 9.2 $4\text{K}$ Timelines & Export (Resolve‑centric)
+#### 9.2 4K Timelines & Export (Resolve‑centric)
 
-- **Best performance per euro:**  
-  Lenovo Legion 5 16IRX9  
-  - RTX 4070 + $32\,\text{GB}$ + i7‑14650HX + $1600\text{p}$ IPS – ideal for complex $4\text{K}$ timelines and fast exports.
+- **Best performance per dinar:**  
+  **Lenovo Legion 5 16IRX9** – RTX 4070, 32 GB DDR5‑5600, strong CPU, 1600p IPS.
 
-- **Alternative with similar GPU but cheaper / $1080\text{p}$:**  
-  LOQ 15ARP9  
-  - RTX 4070 + $24\,\text{GB}$ RAM; FHD panel is the main compromise.
+- **Cheaper 4070 alternative (FHD):**  
+  **Lenovo LOQ 15ARP9** – RTX 4070, 24 GB DDR5‑4800, FHD screen.
 
-- **OLED alternative:**  
-  Lenovo Legion 5 15AKP10 (OLED) – superb $4\text{K}$ performance with best screen and slightly lower GPU tier (5060).
+- **OLED alternative with strong GPU:**  
+  **Lenovo Legion 5 15AKP10 (OLED)** – RTX 5060, 32 GB, best display.
 
 ---
 
 #### 9.3 Color‑Critical Work
 
-- **Best choice:** Lenovo Legion 5 15AKP10 (OLED)  
-  - $15.1"$ $1600\text{p}$ OLED, 100% DCI‑P3, HDR True Black – by far the best for grading/finishing.
+- **Best choice:** Legion 5 15AKP10 (OLED).  
+- **Second choice:** Legion Pro 5 16ADR10 (bright DCI‑P3 IPS).  
+- **Third choice:** Gigabyte Aero X16 (Pantone IPS).
 
-- **Second choice:** Lenovo Legion Pro 5 16ADR10  
-  - $16"$ $1600\text{p}$ IPS, $500\,\text{nits}$, 100% DCI‑P3, HDR400 – excellent, non‑OLED option.
-
-- **Third choice:** Gigabyte Aero X16  
-  - Pantone‑validated $1600\text{p}$ IPS display, very good for color if you don’t need DCI‑P3 coverage.
+External calibrated monitors are still recommended for final grading, but these three internal displays are the most suitable.
 
 ---
 
 #### 9.4 Mobility / Travel
 
-- **Most portable:** Gigabyte Aero X16 – $1.9\,\text{kg}$, big $16"$ $1600\text{p}$ screen.  
-- **Second place:** Legion 5 15AKP10 (OLED) – $2.0\,\text{kg}$, still significantly lighter than most others.  
-- **Third place:** Legion Slim 5 16AHP9 – $2.3\,\text{kg}$, slim profile.
+- **Most portable:** Gigabyte Aero X16 – 1.9 kg, 16″ 1600p screen.  
+- **Second:** Legion 5 15AKP10 (OLED) – 2.0 kg.  
+- **Third:** Legion Slim 5 – 2.3 kg, slim chassis.
 
-All of them, however, have gaming‑class thermals and limited battery life; think of them as “portable desktops”.
-
----
-
-#### 9.5 Multitasking & Large Projects (RAM Priority)
-
-- **Top tier ($32\,\text{GB}$):**  
-  - Legion 5 16IRX9  
-  - Legion 5 15AKP10 (OLED)  
-  - Legion Pro 5 16ADR10  
-
-- **Second tier ($24\,\text{GB}$):**  
-  - LOQ 15IRX10  
-  - LOQ 15ARP9  
-
-For intensive AE work (lots of pre‑renders, many comps/layers) and multi‑app workflows, the $32\,\text{GB}$ Legion models are clearly preferable.
+All are still “portable desktops” in terms of battery and thermals, not ultrabooks.
 
 ---
 
-### 10. Risk and Reliability Considerations (Updated)
+#### 9.5 Multitasking & Large Projects (RAM priority)
 
-- **Thermals:**  
-  - HX‑class CPUs (R9 8940/8945HX, i7‑14650HX) routinely hit high temperatures under sustained load; users often report $90$–$100^\circ\text{C}$ package temps during stress and AAA gaming if not tuned.  
-  - Legion 5 16IRX9 and Legion Pro 5 can run very well thermally when undervolted and configured correctly; out‑of‑box behavior varies.
+- **Top tier:**  
+  - Legion 5 16IRX9 – 32 GB DDR5‑5600  
+  - Legion 5 15AKP10 – 32 GB DDR5‑5600  
+  - Legion Pro 5 – 32 GB DDR5‑5200  
 
-- **Battery:**  
-  - Legion and Legion Pro 5 owners commonly report $1.5$–$3$ hours mixed use with HX CPUs, even with $80\,\text{Wh}$ batteries; OLED + dGPU use can be especially demanding.  
+- **Second tier:**  
+  - LOQ 15IRX10 – 24 GB DDR5‑4800  
+  - LOQ 15ARP9 – 24 GB DDR5‑4800  
 
-- **OLED‑specific:**  
-  - The Legion 5 OLED is outstanding but needs sensible brightness, dark themes, and avoiding static UI at max brightness to minimize burn‑in risk over years of use.
+For serious AE and Resolve work, aim for 32 GB; 24 GB is good; 16 GB is the minimum and may need upgrading.
 
-- **Software / drivers:**  
-  - All modern gaming laptops benefit from keeping BIOS, GPU drivers and OEM tools up to date. Some Legion/LOQ owners note quirks with sleep, Hybrid/Auto GPU modes, and power limit behavior.
+---
+
+### 10. Risk and Reliability Considerations
+
+- **Thermals & noise:**  
+  - HX CPUs (R9 8940/8945HX, i7‑14650HX) can run very hot and loud under sustained loads.  
+  - Legion Pro 5 and Legion 5 16IRX9 benefit from undervolting and custom fan profiles.
+
+- **Battery life:**  
+  - All models are limited for mobile editing; expect 1.5–3 hours mixed use at best.  
+  - Editing, rendering, or heavy GPU use will drain much faster.
+
+- **OLED specifics (Legion 5 OLED):**  
+  - Manage brightness and static UI elements to minimize burn‑in risk.  
+  - Prefer dark themes and auto‑hiding panels when possible.
+
+- **Software/driver quirks:**  
+  - Some Lenovo LOQ and Legion models have reported sleep/wake and driver issues; keeping BIOS and GPU drivers up to date is important.
 
 ---
 
 ### 11. Updated Overall Conclusions
 
-With the three new Legion models included:
+With the three new Legion models integrated and RAM type/speed clarified:
 
-1. If you want the single best “do‑everything” laptop for Resolve + AE:  
-   - **Lenovo Legion 5 16IRX9** – RTX 4070, i7‑14650HX, $32\,\text{GB}$, $16"$ $1600\text{p}$ IPS.  
+1. **Best “do‑everything” laptop for Resolve + AE:**  
+   - **Lenovo Legion 5 16IRX9** – RTX 4070, i7‑14650HX, 32 GB DDR5‑5600, 16″ 1600p IPS.
 
-2. If you are AE‑heavy / CPU‑bound and also care about a great screen:  
-   - **Lenovo Legion Pro 5 16ADR10** – R9 8945HX, $32\,\text{GB}$, RTX 5050, $500\,\text{nit}$ DCI‑P3 $1600\text{p}$ display.  
+2. **Best for AE‑heavy / CPU‑bound workloads with a great screen:**  
+   - **Lenovo Legion Pro 5 16ADR10** – R9 8945HX, 32 GB DDR5‑5200, RTX 5050, 16″ 1600p DCI‑P3, 500 nits.
 
-3. If color‑critical grading is central (and you accept OLED trade‑offs):  
-   - **Lenovo Legion 5 15AKP10 (OLED)** – best screen, very strong CPU/GPU, $32\,\text{GB}$ RAM.  
+3. **Best for color‑critical grading (internal display):**  
+   - **Lenovo Legion 5 15AKP10 (OLED)** – 32 GB DDR5‑5600, RTX 5060, 15.1″ 1600p OLED, 100% DCI‑P3.
 
-4. If you want high‑end GPU on a tighter budget:  
-   - **LOQ 15ARP9** (RTX 4070, $24\,\text{GB}$, FHD).  
+4. **Best value 4070 option (if you accept FHD and slightly less RAM):**  
+   - **Lenovo LOQ 15ARP9** – RTX 4070, 24 GB DDR5‑4800, FHD.
 
-5. For lighter GPU needs but high mobility and a great IPS screen:  
-   - **Gigabyte Aero X16** – still excellent if RTX 4050 is enough for your workloads.
+5. **Best for mobility with good IPS screen but lighter GPU needs:**  
+   - **Gigabyte Aero X16** – RTX 4050, 1.9 kg, Pantone 1600p IPS.
 
-The original recommendations remain broadly correct, but the three new Legion models clearly move the “top tier” upward, especially in terms of:
+The new Legion 5/Pro models raise the top tier by offering:
 
-- $32\,\text{GB}$ RAM as standard  
-- Stronger CPUs (i7‑14650HX, R9 8945HX, Ryzen AI 7 350)  
-- Much better displays (OLED and $500\,\text{nit}$ DCI‑P3 IPS)
+- 32 GB DDR5 as standard  
+- Faster CPUs (i7‑14650HX, R9 8945HX, Ryzen AI 7 350)  
+- Better displays (OLED and bright DCI‑P3 IPS)
 
-You can save this content directly as a `.md` file (for example `laptop_video_editing_comparison.md`) and render or publish it as needed.
+If you specify your exact priorities (e.g. “80% Resolve, 20% AE, must be under 2.3 kg, budget ≤ 210,000 RSD”), this report can be distilled into a short, tailored shortlist.
