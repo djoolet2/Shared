@@ -72,7 +72,7 @@ Priority for Resolve/After Effects is given to:
 
 Notes:
 
-- **All models use DDR5 system RAM**; there is no DDR6/DDR7 system memory in this list.  
+- **All models use DDR5 system RAM**. 
 - GPU VRAM is GDDR6 (RTX 4070/4060/4050) or GDDR7 (RTX 5060/5050).  
 - All have a 1 TB NVMe SSD; for heavy video work, an additional external NVMe SSD is recommended.
 
